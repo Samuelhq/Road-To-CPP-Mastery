@@ -24,7 +24,7 @@ int main() {
 	if (userInterest == "Yes")
 	{ 
 		cout << "Welcome to C++, " << userName << ".\n";
-		cout << "As a " << userAge << "year old " << userJob << ", I'm glad you're interested in C++!\n";
+		cout << "As a " << userAge << " year old " << userJob << ", I'm glad you're interested in C++!\n";
 	}
 	else if (userInterest == "No")
 	{
