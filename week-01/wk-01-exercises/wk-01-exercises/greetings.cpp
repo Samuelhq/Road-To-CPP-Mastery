@@ -21,12 +21,12 @@ int main() {
 	cout << "Are you interested in learning C++? [Answer Yes/No]: ";
 	cin >> userInterest;
 
-	if (userInterest == "Yes")
+	if (userInterest == "yes" || userInterest == "Yes")
 	{ 
 		cout << "Welcome to C++, " << userName << ".\n";
 		cout << "As a " << userAge << " year old " << userJob << ", I'm glad you're interested in C++!\n";
 	}
-	else if (userInterest == "No")
+	else if (userInterest == "no" || userInterest == "No")
 	{
 		cout << "Hello, " << userName << ".\n" "It is sad to see you have no interest in C++.\n";
 	}
