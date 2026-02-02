@@ -1,4 +1,4 @@
-/*This simple program explores the Static Arrays*/
+/*This simple program shows Static Arrays with index starting from 0*/
 
 #include <iostream>
 using namespace std;
