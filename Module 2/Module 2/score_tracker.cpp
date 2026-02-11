@@ -16,32 +16,15 @@ int main() {
 	// This block contains one print statement. Cleaner and easier to maintain.
 	// 
 	// 
-	//if (teamPoint == 'A') { teamScores[0]++; }
-	//else if (teamPoint == 'B') { teamScores[1]++; }
-	//else if (teamPoint == 'C') { teamScores[2]++; }
-	//else { cout << "Invalid team selected!" << endl; }  
-	//cout << "The team scores are: \n" << "Team A: " << teamScores[0] << "\nTeam B: "<< teamScores[1] << "\nTeam C: " << teamScores[2] << endl;
+	if (teamPoint == 'A') { teamScores[0]++; }
+	else if (teamPoint == 'B') { teamScores[1]++; }
+	else if (teamPoint == 'C') { teamScores[2]++; }
+	else { cout << "Invalid team selected!" << endl; }  
+	cout << "The team scores are: \n" << "Team A: " << teamScores[0] << "\nTeam B: "<< teamScores[1] << "\nTeam C: " << teamScores[2] << endl;
 
 	//Also will use (teamPoint == 'A' || teamPoint == 'a') to catch situations where the user enters lower case
 
-	if (teamPoint == 'A') {
-		teamScores[0]++;
-		cout << "The team scores are: \n" << "Team A: " << teamScores[0] << "\nTeam B: "
-			<< teamScores[1] << "\nTeam C: " << teamScores[2] << endl;
-	}
-
-	if (teamPoint == 'B') {
-		teamScores[1]++;
-		cout << "The team scores are: \n" << "Team A: " << teamScores[0] << "\nTeam B: "
-			<< teamScores[1] << "\nTeam C: " << teamScores[2] << endl;
-	}
-
-	if (teamPoint == 'C') {
-		teamScores[2]++;
-		cout << "The team scores are: \n" << "Team A: " << teamScores[0] << "\nTeam B: "
-			<< teamScores[1] << "\nTeam C: " << teamScores[2] << endl;
-	}
-
+	
 	cout << "How many points should all teams get?\n";
 	int bonusPoint = 0;
 	cin >> bonusPoint;
