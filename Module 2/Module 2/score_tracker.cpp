@@ -15,14 +15,15 @@ int main() {
 	// Use reuse this section to update the code. 
 	// This block contains one print statement. Cleaner and easier to maintain.
 	// 
-	// 
-	if (teamPoint == 'A') { teamScores[0]++; }
-	else if (teamPoint == 'B') { teamScores[1]++; }
-	else if (teamPoint == 'C') { teamScores[2]++; }
+	//Also will use (teamPoint == 'A' || teamPoint == 'a') to catch situations where the user enters lower case
+
+	if (teamPoint == 'A' || teamPoint == 'a') { teamScores[0]++; }
+	else if (teamPoint == 'B' || teamPoint == 'b') { teamScores[1]++; }
+	else if (teamPoint == 'C' || teamPoint == 'c') { teamScores[2]++; }
 	else { cout << "Invalid team selected!" << endl; }  
 	cout << "The team scores are: \n" << "Team A: " << teamScores[0] << "\nTeam B: "<< teamScores[1] << "\nTeam C: " << teamScores[2] << endl;
 
-	//Also will use (teamPoint == 'A' || teamPoint == 'a') to catch situations where the user enters lower case
+	
 
 	
 	cout << "How many points should all teams get?\n";
