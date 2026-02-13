@@ -52,10 +52,10 @@ int main() {
 	case 6:
 	case 7:
 		// If it's 1-7, we do the math once here
-		//cout << "You have selected " << days[weekDay - 1] << "." << endl;
-		//break;
+		cout << "You have selected " << days[weekDay - 1] << "." << endl;
+		break;
 
-	default: // Fixed the typo here!
+	default:
 		cout << "Error: " << weekDay << " is not a valid day of the week." << endl;
 		break;
 	}*/
