@@ -11,37 +11,7 @@ int main() {
 	int weekDay = 0;
 	cin >> weekDay;
 
-	weekDay;
-	
-	switch (weekDay) {
-	case 1:
-		cout << "You have selected " << days[0] << "." << endl;
-		break;
-	case 2:
-		cout << "You have selected " << days[1] << "." << endl;
-		break;
-	case 3:
-		cout << "You have selected " << days[2] << "." << endl;
-		break;
-	case 4:
-		cout << "You have selected " << days[3] << "." << endl;
-		break;
-	case 5:
-		cout << "You have selected " << days[4] << "." << endl;
-		break;
-	case 6:
-		cout << "You have selected " << days[5] << "." << endl;
-		break;
-	case 7:
-		cout << "You have selected " << days[6] << "." << endl;
-		break;
-
-	default:
-		cout << "You have selected an invalid day of the week";
-
-	}
-
-	/*We can also optimize the swicth statement to be:
+	/*We can also optimize the swicth statement to be:*/
 	
 	switch (weekDay) {
 	case 1:
@@ -58,7 +28,7 @@ int main() {
 	default:
 		cout << "Error: " << weekDay << " is not a valid day of the week." << endl;
 		break;
-	}*/
+	}
 
 	return 0;
 }
